@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @article.name %>
+</p>
+
+<p>
+  <strong>Introduction:</strong>
+  <%= @article.introduction %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @article.age %>
+</p>
+
+<p>
+  <strong>Important:</strong>
+  <%= @article.important %>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
